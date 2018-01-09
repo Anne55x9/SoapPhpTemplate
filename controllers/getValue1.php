@@ -11,7 +11,7 @@ Twig_Autoloader::register();
 
 $loader = new Twig_Loader_Filesystem('../views');
 $twig = new Twig_Environment($loader, array('auto_reload' => true));
-$template = $twig->loadTemplate('getValuesView.html.twig');
+$template = $twig->loadTemplate('getValue1View.html.twig');
 
 if(isset($_POST['x1'])){
     try{

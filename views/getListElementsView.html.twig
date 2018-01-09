@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GetListView</title>
+</head>
+<body>
+
+
+<h1>All elements</h1>
+
+
+{% if XXes is empty%}
+No requests
+{%else %}
+<ul>
+    {% for x in XXes %}
+    <li>
+        {{x.Navn}}
+        {{x.X1}}
+        {{x.X2}}
+        {{x.X3}}
+        {{x.X4}}
+
+
+    </li>
+    {%endfor %}</ul>
+{%endif%}
+
+
+
+
+
+</body>
+</html>
